@@ -13,3 +13,5 @@ if you find this code useful for your research, please consider citing:
     }
     
  if GPU memory is not an issue, during testing, you can run all test images at once, just remove for loop in line 281 and line 395, and dedent the block of codes properly. 
+ 
+ Data augmentation needs to be applied to the training sets, images are not augmented in real-time during training.
