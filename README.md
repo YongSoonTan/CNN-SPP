@@ -11,3 +11,5 @@ if you find this code useful for your research, please consider citing:
       year={2020},
       publisher={Springer}
     }
+    
+    if GPU memory is not an issue, you can run test all images at once, just remove for loop in line 281 and line 395, and dedent the block of codes properly. 
