@@ -17,7 +17,9 @@ if you find this code useful for your research, please consider citing:
  ## Datasets
  Only training sets without augmented data are provided, you can reproduce training sets with augmented data using the Data_Aug.py file provided.
  
- For ASL dataset, each fold of the training sets is provided in compressed files (3 parts).
+ For ASL dataset, augmented training set is not provided, as they are too large to upload (2GB for each fold). However, training set without augmented data is provided, each fold of the training sets is compressed into 3 parts.
+ 
+ For ASL with digits and NUS hand gesture dataset, training set with and without augmented data are both provided, where augmented training sets are compressed into parts.
  
  Data augmentation needs to be applied to the each fold of the training sets, images are not augmented in real-time during training.
 
