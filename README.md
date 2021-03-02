@@ -17,7 +17,7 @@ if you find this code useful for your research, please consider citing:
  ## Datasets
  Only training sets without augmented data are provided, you can reproduce training sets with augmented data using the Data_Aug.py file provided.
  
- For ASL dataset, each fold of the training sets is provided in compressed files (3 part).
+ For ASL dataset, each fold of the training sets is provided in compressed files (3 parts).
  
  Data augmentation needs to be applied to the each fold of the training sets, images are not augmented in real-time during training.
 
