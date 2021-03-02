@@ -21,7 +21,8 @@ if you find this code useful for your research, please consider citing:
  
  For ASL with digits and NUS hand gesture dataset, training set with and without augmented data are both provided, where augmented training sets are compressed into parts.
  
- Data augmentation needs to be applied to the each fold of the training sets, images are not augmented in real-time during training.
+ Data augmentation needs to be applied to the each fold of the training sets, images are not augmented in real-time during training. 
+ To generate augmented data for ASL dataset, please read instruction on line 16 in Data_Aug.py.
 
 | ASL                                                                                              
 |---------------------------------------------------------------------------------------------------------
