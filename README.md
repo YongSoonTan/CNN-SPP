@@ -15,7 +15,7 @@ if you find this code useful for your research, please consider citing:
  if GPU memory is not an issue, during testing, you can run all test images at once, just remove for loop in line 281 and line 395, and dedent the block of codes accordingly. 
  
  ## Datasets
- Only dataset without augmented data are provided, you can reproduce the augmented data using Data_Aug.py file provided.
+ Only training sets without augmented data are provided, you can reproduce training sets with augmented data using Data_Aug.py file provided.
  
  For ASL NUS hand gesture dataset, only 1st fold is provided, as uploading all 5 folds (train and test) exceeds the github file size limit. You can make the remaining 4 folds by combining all images of 1st fold (train and test), and split it accordingly to make the remaining 4 folds.
  
