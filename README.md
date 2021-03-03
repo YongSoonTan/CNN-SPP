@@ -12,7 +12,7 @@ if you find this code useful for your research, please consider citing:
       publisher={Springer}
     }
     
- if GPU memory is not an issue, during testing, you can run all test images at once, just remove for loop in line 281 and line 395, and dedent the block of codes accordingly. 
+ if GPU memory is not an issue, during testing, you can run all test images at once, just remove for loop in line 281 and line 395, and dedent the block of codes, and set the test images and labels accordingly accordingly. 
  
  ## Datasets
  Only training sets without augmented data are provided, you can reproduce training sets with augmented data using the Data_Aug.py file provided.
