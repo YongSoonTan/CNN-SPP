@@ -19,7 +19,7 @@ if you find this code useful for your research, please consider citing:
     
  if GPU memory is not an issue, during testing, you can run all test images at once, just remove for loop in line 281 and line 395, and dedent the block of codes, and set the test images and labels accordingly. 
  
- ## Datasets (All three static hand gesture datasets in raw form ["here"])
+ ## Datasets (All three static hand gesture datasets in raw form ["here"](https://github.com/YongSoonTan/Static_Hand_Gesture_Datasets))
  For ASL dataset, augmented training set is not provided, as they are too large to upload (2GB for each fold). However, training set without augmented data is provided, each fold of the training sets is compressed into 3 parts. You can reproduce training sets with augmented data using the Data_Aug.py file provided.
  
  For ASL with digits and NUS hand gesture dataset, training set with and without augmented data are both provided, where augmented training sets are compressed into parts.
