@@ -8,25 +8,14 @@ Implementation of data augmentation (in python) and CNN-SPP (in tensorflow 1.15)
 
 if you find this code useful for your research, please consider citing either one:
 
-    @article{tan2020convolutional,
+    @article{tan2021convolutional,
       title={Convolutional neural network with spatial pyramid pooling for hand gesture recognition},
       author={Tan, Yong Soon and Lim, Kian Ming and Tee, Connie and Lee, Chin Poo and Low, Cheng Yaw},
       journal={Neural Computing and Applications},
-      pages={1--13},
-      year={2020},
-      publisher={Springer}
-    }
-
-    @article{Tan2021,
-      title={Convolutional neural network with spatial pyramid pooling for hand gesture recognition},
-      author={Tan, Yong Soon and Lim, Kian Ming and Tee, Connie and Lee, Chin Poo and Low, Cheng Yaw},
-      journal={Neural Computing and Applications},
-      year={2021},
-      month={May},
       volume={33},
       number={10},
       pages={5339--5351},
-      issn={1433-3058},
+      year={2021},
       publisher={Springer}
     }
     
